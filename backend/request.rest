@@ -1,0 +1,30 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/643e1db971abdc6f882daff1
+
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "Widia Fath",
+    "email" : "email@gmail.com",
+    "gender" : "Female"
+}
+
+
+###
+PATCH http://localhost:5000/users/643e1db971abdc6f882daff1
+Content-Type: application/json
+
+{
+    "name" : "Widia Fath",
+    "email" : "widia@gmail.com",
+    "gender" : "Female"
+}
+
+###
+DELETE http://localhost:5000/users/643e1db971abdc6f882daff1
