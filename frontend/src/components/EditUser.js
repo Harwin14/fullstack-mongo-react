@@ -32,7 +32,7 @@ const EditUSer = () => {
         } catch (error) {
             console.log(error); 
         }
-    };
+    }; 
 
     return (
         <div className='columns'>
